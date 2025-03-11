@@ -1,6 +1,6 @@
 (function () {
     const spanEl = document.querySelector("main h2 span")
-    const txtArr = ['Web Publisher', 'Front-End Developer', 'Web UI Designer', 'UX Designer', 'Back-End Developer']
+    const txtArr = ['Web Publisher', 'Front-End Developer', 'Back-End Developer']
     let index = 0
     let currentTxt = txtArr[index].split("")
     console.log(currentTxt)
