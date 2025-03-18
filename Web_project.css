@@ -276,33 +276,14 @@ section.portfolio::after {
     clear: both;
 }
 
-section.portfolio .portfolio-inner {
-    width: 30%;
-    margin-right: 5%;
-    padding: 1rem 1rem 1.5rem 1rem;
-    float: left;
-    background-color: #f8f8f8;
-    border: 1px solid #ccc;
-    margin-bottom: 3rem;
+.personproject {
+    margin-top: -30px;
+    margin-bottom: 30px;
 }
 
-section.portfolio .portfolio-inner:nth-child(3n) {
-    margin-right: 0;
-}
-
-section.portfolio .portfolio-inner img {
-    width: 100%;
-    display: block;
-}
-
-section.portfolio .portfolio-inner strong {
-    color: #ff6a6a;
-    margin: 0.5rem 0;
-    display: block;
-}
-
-section.portfolio .portfolio-inner h3 {
-    font-size: 1.75rem;
+.Python > img{
+    width: 500px;
+    height: 200px;
 }
 
 @media screen and (max-width:1140px) {
@@ -332,24 +313,6 @@ section.portfolio .portfolio-inner h3 {
     section .do-me .do-inner:nth-child(2n+1){
         margin-right: 4%;
     }
-
-    section .portfolio-me .portfolio-inner{
-        width: 48%;
-        margin-right: 0;
-    }
-
-    section .portfolio-me .portfolio-inner:nth-child(2n+1){
-        margin-right: 4%;
-    }
-
-    section.contact .contact-me .left{
-        width: 100%;
-    }
-
-    section.contact .contact-me .right{
-        width: 100%;
-        margin-left: 0;
-    }
 }
 
 @media screen and (max-width:992px) {
@@ -358,9 +321,6 @@ section.portfolio .portfolio-inner h3 {
     }
     main .container{
         width: 768px;
-    }
-    section .portfolio-me .portfolio-inner{
-        width: 100%;
     }
 }
 
