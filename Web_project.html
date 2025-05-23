@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="ko">
 
 <head>
     <meta charset="UTF-8">
@@ -11,6 +11,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="Web_project.css">
     <link rel="icon" href="https://lh3.googleusercontent.com/ogw/AF2bZygSvAcsqACZHF6r3tSJhYSWEpXTSy4NR-zWmaLxJlmyhfM=s64-c-mo" />
+    <script src="Web_project.js" defer></script>
 </head>
 
 <body>
@@ -37,9 +38,8 @@
     <main id="main">
         <div class="container">
             <h4>Welcome</h4>
-            <h2>I'M A <span></span></h2>
-            <button class="download"><a href="https://github.com/hoyoung296?tab=overview" target="_blank" style="text-decoration: none;">GitHub로
-                    이동</a></button>
+            <h2>I'M A <span></span></h2><br />
+            <button class="download"><a href="https://github.com/hoyoung296?tab=overview" target="_blank" style="text-decoration: none;">GitHub로 이동</a></button>
             <button class="mouse"><i class="fa-solid fa-computer-mouse"></i></button>
         </div>
     </main>
@@ -80,13 +80,13 @@
                     </div>
                     <div class="content">
                         <h3>Git & GitHub</h3>
-                        <p><b>효율적인 <span style="color: red;">협업</span>과 <span style="color: red;">코드 관리</span>의 핵심</b></p>
+                        <p><b>효율적인 <span style="color: red;">협업</span>과 <span style="color: red;">코드 관리</span>의 핵심</b>
+                        </p>
                     </div>
                 </div>
                 <div class="do-inner">
                     <div class="icon">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C Language Logo"
-                            width="50">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C Language Logo" width="50">
                     </div>
                     <div class="content">
                         <h3>C언어</h3>
@@ -128,7 +128,8 @@
                     </div>
                     <div class="content">
                         <h3>HTML/ CSS/<br>JavaScript</h3>
-                        <p><b>웹의 <span style="color: red;">골격</span>을 만들고, <span style="color: red;">스타일</span>을 입히고, <span style="color: red;">생명</span>을 불어넣다</b></p>
+                        <p><b>웹의 <span style="color: red;">골격</span>을 만들고, <span style="color: red;">스타일</span>을 입히고,
+                                <span style="color: red;">생명</span>을 불어넣다</b></p>
                     </div>
                 </div>
                 <div class="do-inner">
@@ -137,7 +138,9 @@
                     </div>
                     <div class="content">
                         <h3>Node.js</h3>
-                        <p><b><spna style="color: red;">비동기</spna> 이벤트 기반으로 빠르고 확장 가능한 서버를 구축하다</b></p>
+                        <p>
+                            <b><span style="color: red;">비동기</span> 이벤트 기반으로 빠르고 확장 가능한 서버를 구축하다</b>
+                        </p>
                     </div>
                 </div>
                 <div class="do-inner">
@@ -151,8 +154,7 @@
                 </div>
                 <div class="do-inner">
                     <div class="icon">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Spring_Framework_Logo_2018.svg"
-                            alt="Spring Logo" width="40">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Spring_Framework_Logo_2018.svg" alt="Spring Logo" width="40">
                     </div>
                     <div class="content">
                         <h3>Spring</h3>
@@ -181,18 +183,69 @@
             <div class="personproject">
                 <h1>개인 프로젝트</h1><br />
                 <div>
-                    <h1>C언어 - 지뢰찾기</h1>
-                    깃허브 : <a href="https://github.com/hoyoung296/C_project" target="_blank">https://github.com/hoyoung296/C_project</a>
+                    <h2>1. C언어 - 지뢰찾기</h2>
+                    <a href="https://github.com/hoyoung296/C_project" target="_blank" style="font-size: 0.8em; margin-left: 10px;">
+                        <i class="fa-brands fa-github"></i> GitHub</a><br /><br />
+                    <h3>📌 설명</h3>
+                    C언어로 개발한 지뢰찾기 게임으로, 16x16 크기의 격자판에서 지뢰를 피하면서 안전한 칸을 열어야 하는 게임입니다.<br />
+                    사용자는 좌표를 입력하여 게임을 진행하며, 지뢰가 있는 칸을 밟으면 게임이 종료되고, 모든 안전한 칸을 열면 게임을 클리어하게 됩니다.<br /><br />
+                    <h3>🛠 사용 기술 및 스택</h3>
+                    Backend: C언어<br />
+                    Database: 없음<br />
+                    Tools: Visual Studio Code, GitHub<br /><br />
+                    <h3>✨ 주요 기능</h3>
+                    ✅ 16x16 크기의 게임판에서 지뢰 4개 랜덤 배치<br />
+                    ✅ 사용자가 선택한 좌표에 따라 지뢰가 있는지 확인하고 주변 숫자 표시<br />
+                    ✅ 0인 칸은 자동으로 연결된 빈 칸을 열어주는 기능<br />
+                    ✅ 지뢰를 밟으면 게임 종료<br />
+                    ✅ 모든 안전한 칸을 열면 게임 클리어<br />
+                    ✅ 게임 진행 중 학생이 선택한 칸에 대한 정보 출력<br /><br />
+                    <h3>🛠 구현 상세</h3>
+                    프로그램 구조 설계: 게임판을 2차원 배열로 관리하고, 지뢰를 랜덤으로 배치한 후, 각 칸의 주변 지뢰 개수를 계산하여 표시<br />
+                    기능 구현: 사용자가 선택한 좌표에 따라 지뢰를 밟았는지, 안전한 칸을 열었는지 판단<br />
+                    데이터 저장 방식: 2차원 배열을 활용하여 게임판 데이터를 관리<br />
+                    게임 종료/클리어 조건: 지뢰를 밟으면 게임 종료, 모든 안전한 칸을 열면 게임 클리어<br />
+                    유효성 검사: 입력받은 좌표가 올바른지, 이미 열린 칸인지 등의 검증 로직 적용<br /><br />
+                    <h3>🎯 마무리</h3>
+                    그래픽 인터페이스를 통한 게임 화면 구현 (SDL 또는 OpenGL 활용)<br />
+                    사용자에게 더 나은 경험을 제공하기 위한 음성, 애니메이션 추가<br />
+                    고급 난이도 추가 및 지뢰 개수 증가, 게임 시간 제한 등의 기능 추가<br /><br />
                     <div class="project">
+                        <h3>🖥️ 실행 화면</h3>
                         <img src="images/지뢰찾기1.jpg">
                         <img src="images/지뢰찾기2.jpg">
                         <img src="images/지뢰찾기3.jpg">
                     </div>
                 </div><br />
                 <div>
-                    <h1>파이썬 - 학생정보관리프로그램 (CRUD)</h1>
-                    깃허브 : <a href="https://github.com/hoyoung296/Python_project" target="_blank">https://github.com/hoyoung296/Python_project</a>
+                    <h2>2. 파이썬 - 학생정보관리프로그램 (CRUD)</h2>
+                    <a href="https://github.com/hoyoung296/Python_project" target="_blank" style="font-size: 0.8em; margin-left: 10px;">
+                        <i class="fa-brands fa-github"></i> GitHub</a><br /><br />
+                    <h3>📌 설명</h3>
+                    학생의 인적 사항을 등록, 검색, 수정, 삭제할 수 있는 학생 관리 프로그램입니다.<br />
+                    데이터베이스를 사용하지 않고, Python의 딕셔너리를 활용하여 학생 정보를 관리합니다.<br />
+                    사용자는 학번을 기준으로 학생을 조회하고, 필요한 정보를 수정하거나 삭제할 수 있습니다.<br /><br />
+                    <h3>🛠 사용 기술 및 스택</h3>
+                    Backend : Python<br />
+                    Database : 없음 (딕셔너리 활용)<br />
+                    Tools : Visual Studio Code, GitHub<br /><br />
+                    <h3>✨ 주요 기능</h3>
+                    ✅ 학생 정보 등록 (학번, 이름, 생년월일, 학년)<br />
+                    ✅ 학번을 이용한 학생 검색 기능<br />
+                    ✅ 학생 정보 수정 (이름, 생년월일, 학년 변경)<br />
+                    ✅ 특정 학생 삭제 및 전체 학생 목록 삭제 기능<br />
+                    ✅ 등록된 모든 학생 목록 출력 기능<br /><br />
+                    <h3>🛠 구현 상세</h3>
+                    프로그램 구조 설계 : 학생 정보를 객체로 관리하는 student 클래스 정의<br />
+                    기능 구현 : 학생 정보 등록, 검색, 수정, 삭제 기능 함수별 구현<br />
+                    데이터 저장 방식 : 딕셔너리를 활용하여 학생 정보 저장 및 관리<br />
+                    유효성 검사 : 올바른 학년 입력, 존재하는 학번 확인 등의 검증 로직 적용<br /><br />
+                    <h3>🎯 마무리</h3>
+                    데이터베이스(MySQL 또는 SQLite)를 연동하여 영구 저장 기능 추가<br />
+                    GUI 환경 구축을 통한 사용자 편의성 개선 (Tkinter 또는 PyQt 활용)<br />
+                    웹 기반 학생 관리 시스템으로 확장 (Flask 또는 Django 활용)<br /><br />
                     <div class="project">
+                        <h3>🖥️ 실행 화면</h3>
                         <img src="images/파이썬 사진 1.jpg">
                         <img src="images/파이썬 사진 2.jpg">
                         <img src="images/파이썬 사진 3.jpg">
@@ -203,9 +256,51 @@
             <div class="groupproject">
                 <h1>팀 프로젝트</h1><br />
                 <div>
-                    <h1>JAVA & DB 연동 - 미니게임천국 (Java 콘솔 게임)</h1>
-                    깃허브 : <a href="https://github.com/hoyoung296/Java_project.git" target="_blank">https://github.com/hoyoung296/Java_project</a>
+                    <h2>1. JAVA & DB 연동 - 미니게임천국 (Java 콘솔 게임)</h2>
+                    <a href="https://github.com/hoyoung296/Java_project.git" target="_blank" style="font-size: 0.8em; margin-left: 10px;">
+                        <i class="fa-brands fa-github"></i> GitHub</a><br /><br />
+                    <h3>📅 개발 기간</h3>
+                    2024.10.25 ~ 2024.10.30<br /><br />
+                    <h3>📌 개요</h3>
+                    본 프로젝트는 옛날 인기 모바일 게임이었던 "미니게임천국"을 모티브로 한 Java 콘솔 기반의 미니 게임 모음집입니다. 사용자는 다양한 게임을 선택하여 플레이할 수 있으며, 각각의
+                    게임은 독립적인 서비스로 구현되었습니다.<br /><br />
+                    <h3>🛠 개발 환경</h3>
+                    언어: Java<br />
+                    개발 도구: Eclipse<br />
+                    버전 관리: Git / GitHub<br />
+                    실행 환경: JDK 8 이상<br /><br />
+                    <h3>📂 프로젝트 구조</h3>
+                    project<br />
+                    │── Main.java (프로그램 진입점)<br />
+                    │── Na (마피아 게임 관련 패키지)<br />
+                    │── YJ (가위바위보 게임 관련 패키지)<br />
+                    │── bang (숫자 맞추기 게임 관련 패키지)<br />
+                    │── sodam (333 로또 관련 패키지)<br />
+                    │── Huh (끝말잇기 게임 관련 패키지)<br /><br />
+                    <h3>🎲 게임 목록</h3>
+                    숫자 맞추기 게임 (Bang_Service 구현)<br />
+                    가위바위보 게임 (Huh.Service 구현)<br />
+                    333 로또 게임 (Sodamgame_main 구현)<br />
+                    끝말잇기 게임 (YJ.service 구현)<br />
+                    마피아 게임 (Na.Service 구현)<br /><br />
+                    <h3>👥 담당 역할</h3>
+                    팀 프로젝트로 진행되었으며, 각 팀원은 개별적인 게임을 구현하였습니다.<br />
+                    본인은 마피아 게임을 담당하였습니다.<br /><br />
+                    <h3>🕵️‍♂️ 마피아 게임 설명</h3>
+                    최소 4명, 최대 8명까지 참여 가능<br />
+                    회원가입 및 로그인 후 게임 진행 가능<br />
+                    5턴 동안 대화를 진행하며 마피아를 색출<br />
+                    투표를 통해 마피아를 찾아내 시민이 승리하거나, 마피아가 시민을 모두 제거하면 마피아 승리<br />
+                    승패 기록이 저장됨<br /><br />
+                    <h3>🚀 추가 개발 가능 항목</h3>
+                    GUI를 활용한 인터페이스 추가<br />
+                    네트워크 기능을 이용한 멀티플레이 지원<br />
+                    다양한 마피아 역할 추가 (경찰, 의사 등)<br /><br />
+                    <h3>🎯 마무리</h3>
+                    본 프로젝트는 콘솔 환경에서 동작하는 미니 게임 모음집으로, 다양한 게임을 쉽게 즐길 수 있도록 설계되었습니다. 앞으로 GUI 추가 및 네트워크 기능을 확장하여 더욱 재미있는
+                    프로젝트로 발전시킬 계획입니다.<br /><br />
                     <div class="project">
+                        <h3>🖥️ 실행 화면</h3>
                         <img src="images/Java_project 사진1.jpg">
                         <img src="images/Java_project 사진2.jpg">
                         <img src="images/Java_project 사진3.jpg">
@@ -214,9 +309,37 @@
                     </div>
                 </div><br />
                 <div>
-                    <h1>Node.js & DB 연동 - DOTORI (개인 미니 홈페이지)</h1>
-                    깃허브 : <a href="https://github.com/hoyoung296/Node_project.git" target="_blank">https://github.com/hoyoung296/Node_project.git</a>
+                    <h2>2. Node.js & DB 연동 - DOTORI (개인 미니 홈페이지)</h2>
+                    <a href="https://github.com/hoyoung296/Node_project.git" target="_blank" style="font-size: 0.8em; margin-left: 10px;">
+                        <i class="fa-brands fa-github"></i> GitHub</a><br /><br />
+                    <h3>📅 개발 기간</h3>
+                    24.12.03 ~ 24.12.17<br /><br />
+                    <h3>🎯 기획</h3>
+                    네이트판 느낌의 사이트<br />
+                    미니게임을 통해 도토리(가상머니)를 획득<br />
+                    도토리로 홈페이지 테마를 구매하여 변경 가능<br /><br />
+                    <h3>🛠 사용 기술</h3>
+                    백엔드: Node.js<br />
+                    데이터베이스: Oracle DB<br /><br />
+                    <h3>💡 담당한 기능</h3>
+                    🎮 미니게임<br />
+                    오락실 슈팅게임 방식의 미니게임 구현<br />
+                    위에서 떨어지는 도토리를 아래에서 조작하는 캐릭터로 맞추는 시스템<br />
+                    맞춘 도토리 개수에 따라 가상머니 지급<br /><br />
+                    👥 친구 추가 기능<br />
+                    사용자 간 친구 추가 및 목록 관리 기능 제공<br />
+                    친구 요청, 수락, 삭제 기능 구현<br /><br />
+                    <h3>🔧 추가 개발 항목</h3>
+                    미니게임 내 다양한 난이도 및 아이템 추가<br />
+                    친구 초대 및 멀티플레이 기능<br />
+                    도토리 사용 내역 조회<br /><br />
+                    <h3>🎯 마무리</h3>
+                    이번 프로젝트를 통해 Node.js기반의 기능 구현 경험을 쌓을 수 있었으며,<br />
+                    미니게임과 친구 추가 기능을 개발하며 비동기 처리, 데이터 관리에 대한 이해도를 높일 수 있었습니다.<br />
+                    특히 미니게임 개발 과정에서 게임 로직 설계 및 충돌 감지등을 경험할 수 있었습니다.<br />
+                    향후 기능 확장을 고려하여 코드 구조를 개선할 계획입니다.<br /><br />
                     <div class="project">
+                        <h3>🖥️ 실행 화면</h3>
                         <img src="images/DoToRi사진1.jpg">
                         <img src="images/DoToRi사진2.jpg">
                         <img src="images/DoToRi사진3.jpg">
@@ -227,12 +350,49 @@
                         <img src="images/DoToRi사진8.jpg">
                         <img src="images/DoToRi사진9.jpg">
                     </div>
-                </div><br />
+                </div><br/>
                 <div>
-                    <h1>React & Spring & DB 연동 & AWS를 통한 배포 - THEFILM (영화 예매 사이트)</h1>
-                    백(스프링) 깃허브 : <a href="https://github.com/hoyoung296/Spring_project.git" target="_blank">https://github.com/hoyoung296/Spring_project</a><br />
-                    프론트(리액트) 깃허브 : <a href="https://github.com/hoyoung296/React_project.git" target="_blank">https://github.com/hoyoung296/React_project</a><br />
+                    <h2>3. React & Spring & AWS를 통한 배포 - THEFILM (영화 예매 사이트)</h2>
+                    <a href="https://github.com/hoyoung296/Spring_project.git" target="_blank" style="font-size: 0.8em; margin-left: 10px;">
+                        <i class="fa-brands fa-github"></i> 백엔드(Spring) GitHub</a>
+                    <a href="https://github.com/hoyoung296/React_project.git" target="_blank" style="font-size: 0.8em; margin-left: 10px;">
+                        <i class="fa-brands fa-github"></i> 프론트(React) GitHub</a><br /><br />
+                    <h3>📌 프로젝트 개요</h3>
+                    THEFILM은 사용자가 영화를 검색하고, 예매하며, 리뷰를 작성할 수 있는 영화 예매 플랫폼입니다. 직관적인 UI/UX를 제공하여 사용자가 원하는 정보를 빠르게 찾고 편리하게
+                    예매할 수 있도록 설계되었습니다.<br />
+                    프로젝트 기간: 2025.01.21 ~ 2025.03.14<br />
+                    참여 인원: 5명<br /><br />
+                    <h3>🔥 주요 기능</h3>
+                    ✅ 영화 검색: 사용자가 입력한 검색어와 관련된 영화 포스터를 표시<br />
+                    ✅ 영화 상세 보기: 영화의 줄거리, 감독, 출연 배우 등의 정보를 제공<br />
+                    ✅ 예매 기능: 원하는 시간대와 좌석을 선택하여 영화 예매 가능<br />
+                    ✅ 예매 취소 및 리뷰 작성: 예매 내역을 확인하고 취소 가능, 영화 리뷰 작성 기능 제공<br />
+                    ✅ 반응형 UI/UX: 다양한 디바이스에서 최적화된 화면 제공<br /><br />
+                    <h3>🛠 기술 스택</h3>
+                    Frontend<br />
+                    React: UI 컴포넌트 및 상태 관리<br />
+                    JavaScript, HTML5, CSS3: 마크업 및 스타일링<br />
+                    Axios: 백엔드 API 호출<br /><br />
+                    Backend<br />
+                    Spring Framework: RESTful API 설계 및 데이터 처리<br />
+                    Oracle DB: 데이터 저장 및 관리<br />
+                    MyBatis: 데이터베이스 연동<br /><br />
+                    Deployment & Tools<br />
+                    AWS (EC2, S3): 서버 배포 및 클라우드 인프라 관리<br />
+                    Git, GitHub: 버전 관리 및 협업<br />
+                    Notion: 문서화 및 작업 관리<br /><br />
+                    <h3>📌 프로젝트 설계 및 목표</h3>
+                    1️⃣ 검색 기능: 검색어 입력 시 관련 영화 포스터 표시 및 상세보기/예매 버튼 제공<br />
+                    2️⃣ 예매 기능: 영화 예매 페이지에서 시간대와 좌석을 선택하여 예매 가능<br />
+                    3️⃣ 리뷰 기능: 사용자 리뷰 작성 및 조회 기능 제공<br />
+                    4️⃣ 반응형 디자인: 모바일, 태블릿, 데스크톱 환경 최적화<br /><br />
+                    <h3>🎯 마무리</h3>
+                    본 프로젝트는 KMDB API와 영화진흥위원회 API를 활용하여 영화 데이터를 가져오는 방식으로 진행되었습니다. 처음에는 한 API만 사용하려 했지만, 데이터 부족 문제로 인해 두
+                    개의 API를 조합하는 방식으로 수정하였습니다.<br />
+                    또한, 팀원들과 협업하면서 스프링 백엔드에 대한 이해도를 높이고 API 사용법에 대한 인사이트를 얻을 수 있었습니다. 프로젝트를 통해 RESTful API 설계, 데이터 처리,
+                    UI/UX 개선 등을 경험하며 실력을 향상시킬 수 있었습니다.<br /><br />
                     <div class="project">
+                        <h3>🖥️ 실행 화면</h3>
                         <img src="images/THEFILM사진1.png">
                         <img src="images/THEFILM사진2.png">
                         <img src="images/THEFILM사진3.png">
@@ -265,7 +425,5 @@
             </div>
         </div>
     </section>
-    <script src="Web_project.js"></script>
 </body>
-
 </html>

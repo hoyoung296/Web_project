@@ -12,6 +12,10 @@ a:visited {
     color: inherit;
 }
 
+h2{
+    display: inline-block;
+}
+
 li {
     list-style: none;
 }
